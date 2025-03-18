@@ -1,54 +1,110 @@
-# React + TypeScript + Vite
+# 📌 Mein Portfolio - React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Dieses Projekt ist ein interaktives Portfolio, das mit **React, TypeScript, Tailwind CSS und Vite** entwickelt wurde. Das Ziel ist es, meine berufliche Laufbahn, Fähigkeiten und Projekte auf eine visuell ansprechende Weise darzustellen.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Technologien & Tools
 
-## Expanding the ESLint configuration
+- **React 18** (Komponentenbasierte Architektur)
+- **TypeScript** (Typsicherheit & bessere Codequalität)
+- **Vite** (Schnelle Entwicklung & Hot Module Replacement)
+- **Tailwind CSS** (Effizientes Styling & Flexibilität)
+- **Lucide-React Icons** (Moderne Icons für eine bessere UI/UX)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## 📂 Projektstruktur
+
+```bash
+📦 my-portfolio
+├── 📂 src
+│   ├── 📂 components
+│   │   ├── 📄 Modal.tsx          # Wiederverwendbare Modal-Komponente
+│   │   ├── 📄 Timeline.tsx       # Karriere-Timeline mit interaktiven Elementen
+│   │   ├── 📄 KontaktDetails.tsx # Kontaktinformationen
+│   │   ├── 📄 Zertifikats.tsx    # Zertifikate & Abschlüsse
+│   │   ├── 📄 Language.tsx       # Sprachkenntnisse
+│   │   ├── 📄 SoftSkills.tsx     # Soft Skills
+│   │   ├── 📄 Expertise.tsx      # Fachliche Expertise
+│   │   ├── 📄 Titel.tsx          # Vorstellung & Über mich
+│   ├── 📄 App.tsx                # Hauptkomponente
+│   ├── 📄 main.tsx               # Einstiegspunkt
+│   ├── 📄 index.css              # Globale Styles
+├── 📄 tailwind.config.js         # Tailwind Konfiguration
+├── 📄 tsconfig.json              # TypeScript Konfiguration
+└── 📄 vite.config.ts             # Vite Konfiguration
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🛠 Installation & Starten des Projekts
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+1️⃣ **Projekt klonen:**
+
+```sh
+git clone https://github.com/deinBenutzername/my-portfolio.git
+cd my-portfolio
 ```
+
+2️⃣ **Abhängigkeiten installieren:**
+
+```sh
+npm install
+```
+
+3️⃣ **Projekt starten:**
+
+```sh
+npm run dev
+```
+
+➡ Das Projekt läuft unter `http://localhost:5173`
+
+---
+
+## 🎨 Features & Highlights
+
+✅ **Interaktive Timeline:**
+
+- Zeigt meinen beruflichen Werdegang mit einer **vertikalen Timeline** an.
+- Benutzer kann per Klick auf „+“ mehr Informationen zu jeder Station erhalten.
+
+✅ **Modale Pop-ups:**
+
+- Zertifikate, Sprachkenntnisse und zusätzliche Informationen sind in **modalen Fenstern** verfügbar.
+
+✅ **Sauberes & modernes Design:**
+
+- Verwendet **Tailwind CSS** für eine klare und **responsive UI**.
+
+✅ **Komponentenbasierte Architektur:**
+
+- Jedes Feature ist in einer eigenen **wiederverwendbaren Komponente** implementiert.
+
+✅ **SEO & Performance optimiert:**
+
+- **Vite** sorgt für **schnelle Ladezeiten** und eine **optimierte Entwicklererfahrung**.
+
+---
+
+## 📌 Weiterentwicklung
+
+🛠 **Geplante Features:**
+
+- 🎭 **Dunkelmodus** für bessere Benutzerfreundlichkeit.
+- 📱 **Bessere Mobile-Optimierung** für kleinere Bildschirme.
+- 📝 **Dynamische Projekte-Sektion**, um meine neuesten Arbeiten anzuzeigen.
+
+---
+
+## 📞 Kontakt
+
+💼 **Portfolio:** [mein-portfolio.de](https://mein-portfolio.de)  
+🐙 **GitHub:** [github.com/Muratzenkin](https://github.com/Muratzenkin)  
+💼 **LinkedIn:** [linkedin.com/in/murat-zenkin](https://www.linkedin.com/in/murat-zenkin-2a04b32a5/)  
+📧 **E-Mail:** [muratzenkin94@gmail.com](mailto:muratzenkin94@gmail.com)
+
+---
+
+**Made with ❤️ by Murat Zenkin**

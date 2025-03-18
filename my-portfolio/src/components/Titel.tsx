@@ -21,7 +21,7 @@ function Titel() {
         ich Stressmanagement und schnelles Problemlösen gelernt. Jetzt möchte
         ich meine Fähigkeiten in einem professionellen IT-Team einsetzen.
         <span
-          className="text-blue-400 cursor-pointer hover:underline"
+          className="text-orange-500 cursor-pointer hover:underline"
           onClick={openModal}
         >
           Mehr über mich...
@@ -30,7 +30,7 @@ function Titel() {
 
       {/* Modal */}
       <Modal isOpen={isModalOpen} onClose={closeModal}>
-        <h2 className="text-2xl font-semibold mb-4">Über mich</h2>
+        {/* <h2 className="text-2xl font-semibold mb-4">Über mich</h2>
 
         <p className="text-gray-700">
           Mein Name ist Murat Zenkin. Ich wurde am 18.04.1994 in der Türkei
@@ -67,7 +67,7 @@ function Titel() {
           zu schaffen. Ich bin bereit, weiter zu lernen, mich neuen
           Herausforderungen zu stellen und in der IT-Welt einen Unterschied zu
           machen.
-        </p>
+        </p> */}
         <Timeline />
       </Modal>
     </div>

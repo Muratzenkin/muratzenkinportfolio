@@ -3,7 +3,7 @@ function BerufsErfahrung() {
     <div>
       {" "}
       {/* Berufserfahrung */}
-      <h2 className="text-2xl font-semibold text-green-600 border-b-2 border-green-400 pb-2 mt-6 mb-4">
+      <h2 className="text-2xl font-semibold text-green-900 border-b-2 border-green-900 pb-2 mt-6 mb-4">
         BERUFSERFAHRUNG
       </h2>
       <p className="text-gray-700 font-semibold">01.2025 - Heute | Freelance</p>

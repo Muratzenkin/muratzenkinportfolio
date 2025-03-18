@@ -1,7 +1,7 @@
 function Bildung() {
   return (
     <div>
-      <h2 className="text-2xl font-semibold text-green-600 border-b-2 border-green-400 pb-2 mb-4">
+      <h2 className="text-2xl font-semibold text-green-900 border-b-2 border-green-900 pb-2 mb-4">
         BILDUNG
       </h2>
       <p className="text-gray-700 font-semibold">

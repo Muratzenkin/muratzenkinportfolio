@@ -10,7 +10,7 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose, children }) => {
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 flex items-center justify-center  bg-opacity-40 backdrop-blur-md z-50">
+    <div className="fixed inset-0 flex items-center justify-center  bg-opacity-70 backdrop-blur-lg z-50">
       {/* Modal İçeriği */}
       <div className=" p-6 rounded-lg shadow-xl relative w-full max-w-6xl max-h-[90vh] overflow-auto">
         <button

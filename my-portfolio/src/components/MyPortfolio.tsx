@@ -6,7 +6,7 @@ import Expertise from "./Expertise.tsx";
 import Titel from "./Titel.tsx";
 import Bildung from "./Bildung.tsx";
 import BerufsErfahrung from "./BerufsErfahrung.tsx";
-import Projekte from "./Projekte.tsx";
+import Projekte from "./Projekte/Projekte.tsx";
 
 const MuratPortfolio = () => {
   return (
