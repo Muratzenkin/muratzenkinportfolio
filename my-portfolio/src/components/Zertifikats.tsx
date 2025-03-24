@@ -27,7 +27,7 @@ function Zertifikats() {
         </h2>
         <p>DCI(Digital Career Institute) - 2025</p>
         <iframe
-          src="public/pdf/DCI_Zertifikat_Zenkin,.pdf"
+          src="public/DCI_Zertifikat_Zenkin,.pdf"
           width="100%"
           height="500px"
           title="Zertifikat"
