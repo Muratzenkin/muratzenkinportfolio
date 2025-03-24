@@ -54,21 +54,21 @@ function Timeline() {
       </h2>
 
       <div className="relative w-full max-w-4xl">
-        <div className="absolute left-1/2 transform -translate-x-1/2 w-1 bg-orange-500 h-full"></div>
+        <div className="hidden md:block absolute left-1/2 transform -translate-x-1/2 w-1 bg-orange-500 h-full"></div>
 
         {timelineData.map((item, index) => (
           <div
             key={index}
-            className={`flex items-center w-full mb-10 ${
-              index % 2 === 0 ? "justify-start" : "justify-end"
-            }`}
+            className={`flex w-full mb-10 
+        ${index % 2 === 0 ? "md:justify-start" : "md:justify-end"} 
+        justify-center`}
           >
-            <div className="w-5/12 bg-white p-6 rounded-lg shadow-lg relative">
+            <div className="w-full md:w-5/12 bg-white p-6 rounded-lg shadow-lg relative">
               <p className="text-gray-500 font-medium">{item.date}</p>
               <h3 className="text-2xl font-semibold mb-2">{item.title}</h3>
 
               <button
-                className="absolute top-1/2 right-[-1.5rem] transform -translate-y-1/2 w-10 h-10 bg-orange-500 rounded-full flex items-center justify-center shadow-md hover:bg-orange-600 transition"
+                className="mt-2 md:absolute md:top-1/2 md:right-[-1.5rem] transform md:-translate-y-1/2 w-10 h-10 bg-orange-500 rounded-full flex items-center justify-center shadow-md hover:bg-orange-600 transition"
                 onClick={() => toggleItem(index)}
               >
                 {openIndex === index ? (

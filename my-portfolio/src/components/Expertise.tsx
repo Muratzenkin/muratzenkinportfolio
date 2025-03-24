@@ -33,7 +33,25 @@ function Expertise() {
           <CheckCircle size={18} /> EXPRESS.JS
         </p>
         <p className="text-gray-700 flex items-center gap-2">
+          <CheckCircle size={18} /> MONGODB
+        </p>
+        <p className="text-gray-700 flex items-center gap-2">
+          <CheckCircle size={18} /> MONGOOSE
+        </p>
+        <p className="text-gray-700 flex items-center gap-2">
           <CheckCircle size={18} /> REST APIs
+        </p>
+        <p className="text-gray-700 flex items-center gap-2">
+          <CheckCircle size={18} /> GIT
+        </p>
+        <p className="text-gray-700 flex items-center gap-2">
+          <CheckCircle size={18} /> GITHUB
+        </p>
+        <p className="text-gray-700 flex items-center gap-2">
+          <CheckCircle size={18} /> LINUX
+        </p>
+        <p className="text-gray-700 flex items-center gap-2">
+          <CheckCircle size={18} /> VSCODE
         </p>
         <p className="text-gray-700 flex items-center gap-2">
           <CheckCircle size={18} /> RESPONSIVE DESIGN

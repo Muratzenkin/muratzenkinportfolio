@@ -1,3 +1,4 @@
+import Beratung from "./Beratung";
 import Deutschkurs from "./Deutschkurs";
 import Kältehandschuh from "./Kältehandschuh";
 
@@ -13,6 +14,7 @@ function Projekte() {
       </p>
       <Deutschkurs />
       <Kältehandschuh />
+      <Beratung />
     </div>
   );
 }

@@ -15,10 +15,10 @@ function Kältehandschuh() {
         Bootstrap und der Integration von Formularen zu erweitern.
       </p>
       <span
-        className="text-orange-500 cursor-pointer hover:underline"
+        className="text-green-700 cursor-pointer hover:underline"
         onClick={openModal}
       >
-        Mehr über mich...
+        Mehr erfahren...
       </span>
       <Modal isOpen={isModalOpen} onClose={closeModal}>
         <KältehandschuhText />

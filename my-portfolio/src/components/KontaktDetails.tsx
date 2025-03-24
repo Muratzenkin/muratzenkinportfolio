@@ -3,10 +3,7 @@ import { Phone, Mail, MapPin, Github, Linkedin } from "lucide-react";
 function KontaktDetails() {
   return (
     <div className="w-full text-center">
-      {/* Başlık */}
       <h2 className="text-xl font-semibold mb-3">KONTAKT</h2>
-
-      {/* Bilgiler */}
       <div className="flex flex-col items-center gap-2">
         <p className="text-gray-700 flex items-center gap-2">
           <Phone size={18} />

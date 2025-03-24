@@ -15,8 +15,7 @@ function Language() {
         <p>Telc-Institut - 2023</p>
         <iframe
           src="/public/pdf/MuratZenkinB2.pdf"
-          width="100%"
-          height="500px"
+          className="w-full h-[400px] sm:h-[500px]"
           title="Zertifikat B2 Deutsch"
         ></iframe>
       </Modal>
