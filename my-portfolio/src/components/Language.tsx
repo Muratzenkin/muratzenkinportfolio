@@ -14,7 +14,7 @@ function Language() {
         <h2 className="text-xl font-semibold mb-3">Zertifikat B2 Deutsch</h2>
         <p>Telc-Institut - 2023</p>
         <iframe
-          src="/public/MuratZenkinB2.pdf"
+          src="/MuratZenkinB2.pdf"
           className="w-full h-[400px] sm:h-[500px]"
           title="Zertifikat B2 Deutsch"
         ></iframe>
