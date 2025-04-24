@@ -1,6 +1,6 @@
 import Modal from "../Modal";
 import { useState } from "react";
-import DeutschKursText from "./DeutschKursText";
+import NomadenText from "./NomadenText";
 
 function Deutschkurs() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -9,10 +9,12 @@ function Deutschkurs() {
   const closeModal = () => setIsModalOpen(false);
   return (
     <div>
-      <p className="text-gray-700 font-semibold mt-4">Deutschkurs-Portal</p>
+      <p className="text-gray-700 font-semibold">2Nomaden Migrationsberatung</p>
       <p className="text-gray-600">
-        Hierbei habe ich meine Fähigkeiten in React, TypeScript und
-        State-Management vertieft sowie das Design mit Tailwind CSS gestaltet.
+        Durch dieses Projekt konnte ich meine Fähigkeiten in React, Javascript,
+        State-Management und Tailwind CSS praxisnah anwenden, um ein
+        funktionales System mit Blog, Produktverkauf und Kontaktmöglichkeiten zu
+        realisieren.
       </p>
       <span
         className="text-green-700 cursor-pointer hover:underline"
@@ -21,7 +23,7 @@ function Deutschkurs() {
         Mehr erfahren...
       </span>
       <Modal isOpen={isModalOpen} onClose={closeModal}>
-        <DeutschKursText />
+        <NomadenText />
       </Modal>
     </div>
   );

@@ -1,6 +1,7 @@
 import Beratung from "./Beratung";
 import Deutschkurs from "./Deutschkurs";
 import Kältehandschuh from "./Kältehandschuh";
+import Nomaden from "./Nomaden";
 
 function Projekte() {
   return (
@@ -12,6 +13,7 @@ function Projekte() {
       <p className="text-gray-700 font-semibold">
         2023 - 2025 | DCI (DIGITAL CAREER INSTITUTE)
       </p>
+      <Nomaden />
       <Deutschkurs />
       <Kältehandschuh />
       <Beratung />

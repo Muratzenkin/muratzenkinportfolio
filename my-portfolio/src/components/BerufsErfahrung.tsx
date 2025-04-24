@@ -14,7 +14,7 @@ function BerufsErfahrung() {
           für Sprachlernende, mit React, TypeScript und Node.js.
         </li>
       </ul>
-      <p className="text-gray-700 font-semibold">
+      <p className="text-gray-700 font-semibold mt-4">
         05.2024 - Bis Heute | Pflege und Beratung Heinzelmännchen GmbH
       </p>
       <p className="text-gray-600">Notfallsanitäter (MiniJob)</p>
@@ -24,7 +24,7 @@ function BerufsErfahrung() {
           sozialen Kompetenzen im Umgang mit Menschen weiterzuentwickeln.
         </li>
       </ul>
-      <p className="text-gray-700 font-semibold">
+      <p className="text-gray-700 font-semibold mt-4">
         01.2013 - 04.2023 | Gesundheitsministerium der Türkei
       </p>
       <p className="text-gray-600">Notfallsanitäter</p>
