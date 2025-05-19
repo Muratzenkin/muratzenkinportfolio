@@ -24,10 +24,11 @@ function Language() {
 
       <p className="text-gray-700">🇹🇷 Türkisch - Muttersprache</p>
       <p
-        className="text-gray-700 cursor-pointer hover:underline"
+        className="text-gray-700 cursor-pointer hover:text-orange-500 relative group"
         onClick={openSecondModal}
       >
         🇩🇪 Deutsch - Fortgeschritten
+        <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-orange-500 transition-all duration-300 group-hover:w-full"></span>
       </p>
       <p className="text-gray-700">🇬🇧 Englisch - Fortgeschritten</p>
     </div>
