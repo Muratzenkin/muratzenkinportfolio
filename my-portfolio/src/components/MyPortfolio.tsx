@@ -7,7 +7,8 @@ import Titel from "./Titel.tsx";
 import Bildung from "./Bildung.tsx";
 import BerufsErfahrung from "./BerufsErfahrung.tsx";
 import Projekte from "./Projekte/Projekte.tsx";
-import Services from "./Projekte/Services.tsx";
+import Services from "./Services.tsx";
+import Bieten from "./WebDesignFeatures.tsx";
 
 const MuratPortfolio = () => {
   return (
@@ -48,6 +49,7 @@ const MuratPortfolio = () => {
             <Language />
             <SoftSkills />
             <Expertise />
+            <Bieten />
           </div>
 
           {/* Rechte Seite */}

@@ -1,118 +1,93 @@
 import { CheckCircle } from "lucide-react";
 
-function Expertise() {
+function WebDesignFeatures() {
   return (
     <div className="w-full text-center">
-      <h2 className="text-xl font-semibold mt-6 mb-3">EXPERTISE</h2>
+      <h2 className="text-xl font-semibold mt-6 mb-3">WEB DESIGN FEATURES</h2>
       <div className="flex flex-col items-center gap-2">
         <p className="text-gray-700 flex items-center gap-2 relative group">
           <CheckCircle size={18} className="text-gray-700 group-hover:text-orange-500 transition-colors duration-300" />
-          HTML5
+          Webdesign
           <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-orange-500 transition-all duration-300 group-hover:w-full"></span>
         </p>
         <p className="text-gray-700 flex items-center gap-2 relative group">
           <CheckCircle size={18} className="text-gray-700 group-hover:text-orange-500 transition-colors duration-300" />
-          CSS3
+          Webentwicklung
           <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-orange-500 transition-all duration-300 group-hover:w-full"></span>
         </p>
         <p className="text-gray-700 flex items-center gap-2 relative group">
           <CheckCircle size={18} className="text-gray-700 group-hover:text-orange-500 transition-colors duration-300" />
-          BOOTSTRAP
+          Landingpages
           <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-orange-500 transition-all duration-300 group-hover:w-full"></span>
         </p>
         <p className="text-gray-700 flex items-center gap-2 relative group">
           <CheckCircle size={18} className="text-gray-700 group-hover:text-orange-500 transition-colors duration-300" />
-          TAILWIND
+          Portfolios
           <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-orange-500 transition-all duration-300 group-hover:w-full"></span>
         </p>
         <p className="text-gray-700 flex items-center gap-2 relative group">
           <CheckCircle size={18} className="text-gray-700 group-hover:text-orange-500 transition-colors duration-300" />
-          JAVASCRIPT
+          Buchungssysteme
           <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-orange-500 transition-all duration-300 group-hover:w-full"></span>
         </p>
         <p className="text-gray-700 flex items-center gap-2 relative group">
           <CheckCircle size={18} className="text-gray-700 group-hover:text-orange-500 transition-colors duration-300" />
-          TYPESCRIPT
+          Kontaktformulare
           <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-orange-500 transition-all duration-300 group-hover:w-full"></span>
         </p>
         <p className="text-gray-700 flex items-center gap-2 relative group">
           <CheckCircle size={18} className="text-gray-700 group-hover:text-orange-500 transition-colors duration-300" />
-          REACT
+          Responsives Design
           <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-orange-500 transition-all duration-300 group-hover:w-full"></span>
         </p>
         <p className="text-gray-700 flex items-center gap-2 relative group">
           <CheckCircle size={18} className="text-gray-700 group-hover:text-orange-500 transition-colors duration-300" />
-          NODE.JS
+          CMS-Einbindung
           <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-orange-500 transition-all duration-300 group-hover:w-full"></span>
         </p>
         <p className="text-gray-700 flex items-center gap-2 relative group">
           <CheckCircle size={18} className="text-gray-700 group-hover:text-orange-500 transition-colors duration-300" />
-          EXPRESS.JS
+          Hosting
           <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-orange-500 transition-all duration-300 group-hover:w-full"></span>
         </p>
         <p className="text-gray-700 flex items-center gap-2 relative group">
           <CheckCircle size={18} className="text-gray-700 group-hover:text-orange-500 transition-colors duration-300" />
-          MONGODB
+          SEO-Basics
           <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-orange-500 transition-all duration-300 group-hover:w-full"></span>
         </p>
         <p className="text-gray-700 flex items-center gap-2 relative group">
           <CheckCircle size={18} className="text-gray-700 group-hover:text-orange-500 transition-colors duration-300" />
-          MONGOOSE
+          Performance-Optimierung
           <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-orange-500 transition-all duration-300 group-hover:w-full"></span>
         </p>
         <p className="text-gray-700 flex items-center gap-2 relative group">
           <CheckCircle size={18} className="text-gray-700 group-hover:text-orange-500 transition-colors duration-300" />
-          REST APIs
+          Instagram-Integration
           <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-orange-500 transition-all duration-300 group-hover:w-full"></span>
         </p>
         <p className="text-gray-700 flex items-center gap-2 relative group">
           <CheckCircle size={18} className="text-gray-700 group-hover:text-orange-500 transition-colors duration-300" />
-          GIT
+          Domain-Einrichtung
           <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-orange-500 transition-all duration-300 group-hover:w-full"></span>
         </p>
         <p className="text-gray-700 flex items-center gap-2 relative group">
           <CheckCircle size={18} className="text-gray-700 group-hover:text-orange-500 transition-colors duration-300" />
-          GITHUB
+          E-Mail-Einrichtung
           <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-orange-500 transition-all duration-300 group-hover:w-full"></span>
         </p>
         <p className="text-gray-700 flex items-center gap-2 relative group">
           <CheckCircle size={18} className="text-gray-700 group-hover:text-orange-500 transition-colors duration-300" />
-          LINUX
+          Mehrsprachigkeit
           <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-orange-500 transition-all duration-300 group-hover:w-full"></span>
         </p>
         <p className="text-gray-700 flex items-center gap-2 relative group">
           <CheckCircle size={18} className="text-gray-700 group-hover:text-orange-500 transition-colors duration-300" />
-          VSCODE
+          Schulung / Anleitung
           <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-orange-500 transition-all duration-300 group-hover:w-full"></span>
         </p>
-        <p className="text-gray-700 flex items-center gap-2 relative group">
-          <CheckCircle size={18} className="text-gray-700 group-hover:text-orange-500 transition-colors duration-300" />
-          RESPONSIVE DESIGN
-          <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-orange-500 transition-all duration-300 group-hover:w-full"></span>
-        </p>
-        <p className="text-gray-700 flex items-center gap-2 relative group">
-  <CheckCircle size={18} className="text-gray-700 group-hover:text-orange-500 transition-colors duration-300" />
-  FIGMA
-  <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-orange-500 transition-all duration-300 group-hover:w-full"></span>
-</p>
-<p className="text-gray-700 flex items-center gap-2 relative group">
-  <CheckCircle size={18} className="text-gray-700 group-hover:text-orange-500 transition-colors duration-300" />
-  CANVA
-  <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-orange-500 transition-all duration-300 group-hover:w-full"></span>
-</p>
-<p className="text-gray-700 flex items-center gap-2 relative group">
-  <CheckCircle size={18} className="text-gray-700 group-hover:text-orange-500 transition-colors duration-300" />
-  SCRUM
-  <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-orange-500 transition-all duration-300 group-hover:w-full"></span>
-</p>
-<p className="text-gray-700 flex items-center gap-2 relative group">
-  <CheckCircle size={18} className="text-gray-700 group-hover:text-orange-500 transition-colors duration-300" />
-  NETLIFY / VERCEL
-  <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-orange-500 transition-all duration-300 group-hover:w-full"></span>
-</p>
       </div>
     </div>
   );
 }
 
-export default Expertise;
+export default WebDesignFeatures;

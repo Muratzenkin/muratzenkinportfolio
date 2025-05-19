@@ -21,8 +21,8 @@ function Services() {
           <li className="text-gray-700">
             Auf Wunsch mit Funktionen wie <strong>Kurskalender</strong>, <strong>Kontaktformular</strong> oder <strong>Instagram-Integration</strong>.
           </li>
-          <li className="text-gray-700">
-            Beratung zur Struktur, Benutzerführung und Technik – verständlich erklärt.
+          <li className="text-gray-700 mb-4">
+            Beratung zur Struktur, Benutzerführung und Technik.
           </li>
         </ul>
       </div>
